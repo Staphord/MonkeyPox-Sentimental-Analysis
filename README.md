@@ -1,0 +1,6 @@
+# MonkeyPox-Sentimental-Analysis
+In our study of Monkeypox sentimental analysi, we  extracted tweets using the Twitter API and Tweepy library. Tweepy is a python package for accessing Twitter API that allows developers to access Twitter content, such as tweets, retweets, and timestamps. A python script was used to search for all the tweets related to the keyword “#monkeypox”. All text that met our criteria was extracted and stored in a comma-separated values (CSV) file. We considered a total of five features for our analysis: text, timestamps, author, source, and language. Google Translate API was used to translate all non-English tweets to English.
+
+We collected over 500,000 tweets between July 2022 and September 2022; however, after preprocessing, we were left with 107,000 unique tweets which is expressed in [**MonkeyPox Dataset file**](https://github.com/Staphord/MonkeyPox-Sentimental-Analysis/commit/9a45cb4c8dd434b8f32e35ac78d16a5b8cc503bd#diff-8e36ab8d620db36b2f03ea01752665fb7bb7b0a93e7311db669ab870ee870b91)
+We collected over 500,000 tweets between July 2022 and December 2022; however, after preprocessing, we were left with 237,000 unique tweets which is expressed in [**Emotion file.**]()
+**
